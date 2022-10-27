@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Alert from './components/Alert';
 import List from './components/List';
 
+
+//Function for getting item from Local Storage
 const getLocalStorage = () =>{
   let list = localStorage.getItem('list');
   if(list){

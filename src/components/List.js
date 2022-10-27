@@ -6,6 +6,7 @@ const List = ({items, removeItem, editItem}) => {
         {items.map((item) =>{
             const {id, title} = item;
             return(
+                //Button area
                 <article key={id} className='grocery-item'>
                     <p className='title'>{title}</p>
                     <div className='btn-container'>
